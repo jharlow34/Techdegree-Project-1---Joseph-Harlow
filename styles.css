@@ -18,7 +18,7 @@ a {
   color: #999;
 }
 a:hover {
-  color: #6633ff;
+  color: #003521;
 }
 
 /* Section Styles */
@@ -60,7 +60,7 @@ header {
   background: url('images/new_background_image.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
-  padding-top: 60px;
+  padding-top: 80px;
 }
 header {
   line-height: 1.5;
@@ -74,19 +74,19 @@ header .profile-image {
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.5) rotate(5deg);
+  transform: scale(4) rotate(5deg);
 }
 .tag {
   background-color: #efefef;
   color: black;
-  padding: 10px;
-  border-radius: 5px;
+  padding: 20px;
+  border-radius: 10px;
   display: table;
-  margin: 10px auto;
+  margin: 20px auto;
 } 
 .location {
   background-color: #222;
-  color: yellow;
+  color: whitesmoke;
 }
 .card {
   margin: 30px;
@@ -99,7 +99,7 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: navy;
 }
 
 ul.skills {
@@ -154,9 +154,7 @@ a.social {
 a.twitter {
   background-image: url(images/twitter.svg);
 }
-a.linkedin {
-  background-image: url(images/linkedin.svg);
-}
+
 a.github {
   background-image: url(images/github.svg);
 }
