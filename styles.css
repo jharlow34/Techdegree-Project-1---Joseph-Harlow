@@ -49,7 +49,7 @@ a:hover {
   padding: 5px 10px 10px 10px;
 }
 .nav a {
-  transition: all .5s;
+  transition: all 1s;
 }
 .nav a:hover {
   color: white
